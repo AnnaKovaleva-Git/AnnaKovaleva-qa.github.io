@@ -153,8 +153,63 @@ svg {
 
 @keyframes animation-bug {
     0% {
-        left: 0;
-        top: 0;
+        left: 50vw;
+        top: 50vh;
+        transform: rotate(-120deg);
+    }
+    10% {
+        transform: rotate(-120deg);
+        left: 30vw;
+        top: 30vh;
+    }
+    15%{
+        transform: rotate(-90deg);
+    }
+    40% {
+        transform: rotate(-90deg);
+        left: 30vw;
+        top: 10vh;
+    }
+    41%{
+        transform: rotate(-180deg);
+    }
+    60%{
+        transform: rotate(-180deg);
+        left: 10vw;
+        top: 30vh;
+    }
+    61% {
+        transform: rotate(-270deg);
+    }
+    65%{
+        transform: rotate(-300deg);
+    }
+    85% {
+        transform: rotate(-300deg);
+        left: 40vw;
+        top: 90vh;
+    }
+    86%{
+        transform: rotate(-400deg);
+    }
+    100% {
+        transform: rotate(-400deg);
+        left: 50vw;
+        top: 50vh;
+    }
+}
+
+.bug1 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    animation: animation-bug1 10s ease infinite;
+}
+
+@keyframes animation-bug1 {
+    0% {
+        left: 50vw;
+        top: 50vh;
         transform: rotate(45deg);
     }
     25% {
@@ -166,6 +221,9 @@ svg {
         transform: rotate(-90deg);
         left: 30vw;
         top: 10vh;
+    }
+    51%{
+        transform: rotate(60deg);
     }
     100% {
         transform: rotate(45deg);
