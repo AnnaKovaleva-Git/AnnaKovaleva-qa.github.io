@@ -1,114 +1,175 @@
-body {
-  font-family: "Helvetica";
-  background-color: #0d1117;
-  color: #c9d2d9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
-.header {
-  margin: 40px 0;
+
+.photo {
+    border-radius: 100px;
+    border: 3px solid transparent;
+    box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+    object-fit: cover;
+    margin: 0 0 16px 0;
 }
 
-.header__avatar {
-  border-radius: 50%;
+.photo:hover {
+    border: 3px solid #FEE600;
+    box-shadow: 0 15px 20px rgba(67, 64, 35, 0.4);
+    transform: translateY(-3px);
 }
 
-.header__title {
-  margin: 30px 0 10px 0;
-  font-size: 32px;
-  line-height: 1.2;
-  font-family: "Helvetica Neue";
+
+.contacts {
+    margin: 16px 0 0 0;
+    display: flex;
 }
 
-.header__subtitle {
-  color: #8b949f;
-  font-size: 16px;
-  line-height: 1.4;
-  margin: 0;
+.icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    transition: 0.5s all;
+
 }
 
-.links {
-  width: 320px;
-  margin-bottom: 40px;
+.icons:hover {
+    width: 30px;
+    height: 30px;
 }
 
-.links__header {
-  font-family: "Helvetica Neue";
-  font-size: 24px;
-  line-height: 1.4;
-  margin: 0 0 15px 0;
+.container-main {
+    background-color: #F4F4F4;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    z-index: 100;
 }
 
-.links__container {
-  list-style-type: none;
-  border: 1px solid #30363d;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px 20px 10px;
-  gap: 10px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  box-sizing: border-box;
-  margin: 0;
+.bcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
-.links__link,
-.links__title {
-  font-size: 14px;
-  font-size: 1.4;
+.bcenter {
+    width: 180px;
+    height: 60px;
+    position: absolute;
 }
 
-.links__link {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px 0px 10px;
-  gap: 30px;
-  border-bottom: 1px solid #22262d;
-  width: 280px;
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #FEE600;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 8px;
+
 }
 
-.links__link:last-child {
-  border-bottom: none;
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #2B2D33;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
 }
 
-.linsk__link,
-.links__link:visited {
-  text-decoration: none;
-  color: #58a5fe;
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #FEE600;
 }
 
-.links__title {
-  margin: 0;
-  min-width: 100px;
+.btn:hover svg {
+    stroke-dashoffset: -480;
 }
 
-footer {
-  margin: 0 0 40px 0;
+.btn span {
+    color: #F4F4F4;
+    font-size: 18px;
+    font-weight: 100;
+    transition: 1s ease-in-out;
+
 }
-.button-link {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  width: 320px;
-  background: #20262e;
-  border: 1px solid #30363d;
-  border-radius: 5px;
-  border: none;
-  outline: none;
 
-  font-size: 14px;
-  line-height: 1.4;
+.btn:hover span {
+    color: #2B2D33;
+}
 
-  color: #c9d2d9;
-  text-decoration: none;
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.text {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+}
+
+.text1 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+    border: 2px solid #FEE600;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 0.8s all;
+}
+
+.text1:hover {
+    background: #FEE600;
+}
+
+.text2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+}
+
+.bug {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    animation: animation-bug 10s ease infinite;
+}
+
+@keyframes animation-bug {
+    0% {
+        left: 0;
+        top: 0;
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(40deg);
+        left: 30vw;
+        top: 30vh;
+    }
+    50% {
+        transform: rotate(-90deg);
+        left: 30vw;
+        top: 10vh;
+    }
+    100% {
+        transform: rotate(45deg);
+        left: 100vw;
+        top: 100vh;
+    }
 }
