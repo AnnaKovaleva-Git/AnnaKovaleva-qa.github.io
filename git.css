@@ -189,7 +189,7 @@ svg {
     85% {
         transform: rotate(-300deg);
         left: 30vw;
-        top: calc(100vh - 9vw);
+        top: calc(100vh - 11vw);
     }
     86% {
         transform: rotate(-350deg);
