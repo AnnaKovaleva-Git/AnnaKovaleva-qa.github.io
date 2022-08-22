@@ -212,11 +212,11 @@ svg {
     0% {
         left: 50vw;
         top: 50vh;
-        transform: rotate(-300deg);
+        transform: rotate(-320deg);
     }
     30% {
-        transform: rotate(-300deg);
-        left: 80vw;
+        transform: rotate(-320deg);
+        left: calc(80vw - 8.4vw);
         top: calc(70vh - 7vw);
     }
     31% {
@@ -224,7 +224,7 @@ svg {
     }
     70% {
         transform: rotate(-400deg);
-        left: calc(100vw - 9vw);
+        left: calc(100vw - 11vw);
         top: 30vh;
     }
     71% {
@@ -269,7 +269,7 @@ svg {
     80% {
         transform: rotate(-170deg);
         left: 50vw;
-        top: calc(90vh - 7vw);
+        top: calc(90vh - 8vw);
     }
     81% {
         transform: rotate(-90deg);
@@ -313,7 +313,7 @@ svg {
     80% {
         transform: rotate(-300deg);
         left: 40vw;
-        top: calc(95vh - 7vw);
+        top: calc(95vh - 8vw);
     }
     81% {
         transform: rotate(-400deg);
