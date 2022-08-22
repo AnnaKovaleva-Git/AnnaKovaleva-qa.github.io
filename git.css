@@ -163,37 +163,34 @@ svg {
         top: 30vh;
     }
     15%{
-        transform: rotate(-90deg);
+        transform: rotate(-80deg);
     }
     40% {
-        transform: rotate(-90deg);
+        transform: rotate(-80deg);
         left: 30vw;
         top: 10vh;
     }
     41%{
-        transform: rotate(-180deg);
+        transform: rotate(-150deg);
     }
     60%{
-        transform: rotate(-180deg);
+        transform: rotate(-150deg);
         left: 10vw;
-        top: 30vh;
+        top: 10vh;
     }
     61% {
-        transform: rotate(-270deg);
-    }
-    65%{
         transform: rotate(-300deg);
     }
     85% {
         transform: rotate(-300deg);
-        left: 40vw;
-        top: 90vh;
+        left: 30vw;
+        top: 100;
     }
     86%{
-        transform: rotate(-400deg);
+        transform: rotate(-350deg);
     }
     100% {
-        transform: rotate(-400deg);
+        transform: rotate(-350deg);
         left: 50vw;
         top: 50vh;
     }
@@ -210,24 +207,115 @@ svg {
     0% {
         left: 50vw;
         top: 50vh;
-        transform: rotate(45deg);
+        transform: rotate(-300deg);
     }
-    25% {
-        transform: rotate(40deg);
-        left: 30vw;
+    30% {
+        transform: rotate(-300deg);
+        left: 80vw;
+        top: 70vh;
+    }
+    31%{
+        transform: rotate(-400deg);
+    }
+    70% {
+        transform: rotate(-400deg);
+        left: 100vw;
         top: 30vh;
     }
-    50% {
-        transform: rotate(-90deg);
-        left: 30vw;
-        top: 10vh;
-    }
-    51%{
-        transform: rotate(60deg);
+    71%{
+        transform: rotate(220deg);
     }
     100% {
-        transform: rotate(45deg);
-        left: 100vw;
+        transform: rotate(220deg);
+        left: 50vw;
+        top: 20vh;
+    }
+}
+
+.bug2 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    animation: animation-bug2 10s ease infinite;
+}
+
+@keyframes animation-bug2 {
+    0% {
+        left: 50vw;
+        top: 50vh;
+        transform: rotate(-360deg);
+    }
+    40% {
+        transform: rotate(-360deg);
+        left: 70vw;
+        top: 20vh;
+    }
+    41%{
+        transform: rotate(-300deg);
+    }
+    60% {
+        transform: rotate(-300deg);
+        left: 90vw;
+        top: 80vh;
+    }
+    61%{
+        transform: rotate(-170deg);
+    }
+    80% {
+        transform: rotate(-170deg);
+        left: 50vw;
+        top: 90vh;
+    }
+    81%{
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(-90deg);
+        left: 50vw;
+        top: 50vh;
+    }
+}
+
+.bug3 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    animation: animation-bug3 10s ease infinite;
+}
+
+@keyframes animation-bug3 {
+    0% {
+        left: 50vw;
+        top: 50vh;
+        transform: rotate(-180deg);
+    }
+    30% {
+        transform: rotate(-180deg);
+        left: 30vw;
+        top: 60vh;
+    }
+    31% {
+        transform: rotate(-150deg);
+    }
+    60% {
+        transform: rotate(-150deg);
+        left: 0;
+        top: 50vh;
+    }
+    61% {
+        transform: rotate(-300deg);
+    }
+    80% {
+        transform: rotate(-300deg);
+        left: 40vw;
         top: 100vh;
+    }
+    81% {
+        transform: rotate(-400deg);
+    }
+    100% {
+        transform: rotate(-400deg);
+        left: 50vw;
+        top: 50vh;
     }
 }
