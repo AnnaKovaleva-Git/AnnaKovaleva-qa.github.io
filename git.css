@@ -18,8 +18,7 @@
     object-fit: cover;
     margin: 0 0 1.1111111111111112vw 0;
     width: 11.805555555555555vw;
-    height: 11.805555555555555vw;
-;
+    height: 11.805555555555555vw;;
 }
 
 .photo:hover {
@@ -56,7 +55,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 27.77777777777778vw;
     z-index: 100;
 }
 
@@ -64,19 +63,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 2.7777777777777777vw;
 }
 
 .bcenter {
-    width: 180px;
-    height: 60px;
+    width: 12.5vw;
+    height: 4.166666666666666vw;
     position: absolute;
 }
 
 
 .btn {
-    width: 180px;
-    height: 60px;
+    width: 12.5vw;
+    height: 4.166666666666666vw;
     cursor: pointer;
     background: transparent;
     border: 1px solid #FEE600;
@@ -152,8 +151,8 @@ svg {
 
 .bug {
     position: absolute;
-    width: 120px;
-    height: 100px;
+    width: 8.333333333333332vw;
+    height: 6.944444444444445vw;
     animation: animation-bug 10s ease infinite;
 }
 
@@ -168,7 +167,7 @@ svg {
         left: 30vw;
         top: 30vh;
     }
-    15%{
+    15% {
         transform: rotate(-80deg);
     }
     40% {
@@ -176,10 +175,10 @@ svg {
         left: 30vw;
         top: 10vh;
     }
-    41%{
+    41% {
         transform: rotate(-150deg);
     }
-    60%{
+    60% {
         transform: rotate(-150deg);
         left: 10vw;
         top: 10vh;
@@ -190,9 +189,9 @@ svg {
     85% {
         transform: rotate(-300deg);
         left: 30vw;
-        top: 100;
+        top: calc(100vh - 7vw);
     }
-    86%{
+    86% {
         transform: rotate(-350deg);
     }
     100% {
@@ -204,8 +203,8 @@ svg {
 
 .bug1 {
     position: absolute;
-    width: 120px;
-    height: 100px;
+    width: 8.333333333333332vw;
+    height: 6.944444444444445vw;
     animation: animation-bug1 10s ease infinite;
 }
 
@@ -218,17 +217,17 @@ svg {
     30% {
         transform: rotate(-300deg);
         left: 80vw;
-        top: 70vh;
+        top: calc(70vh - 7vw);
     }
-    31%{
+    31% {
         transform: rotate(-400deg);
     }
     70% {
         transform: rotate(-400deg);
-        left: 100vw;
+        left: calc(100vw - 9vw);
         top: 30vh;
     }
-    71%{
+    71% {
         transform: rotate(220deg);
     }
     100% {
@@ -240,8 +239,8 @@ svg {
 
 .bug2 {
     position: absolute;
-    width: 120px;
-    height: 100px;
+    width: 8.333333333333332vw;
+    height: 6.944444444444445vw;
     animation: animation-bug2 10s ease infinite;
 }
 
@@ -256,23 +255,23 @@ svg {
         left: 70vw;
         top: 20vh;
     }
-    41%{
+    41% {
         transform: rotate(-300deg);
     }
     60% {
         transform: rotate(-300deg);
         left: 90vw;
-        top: 80vh;
+        top: calc(80vh - 7vw);
     }
-    61%{
+    61% {
         transform: rotate(-170deg);
     }
     80% {
         transform: rotate(-170deg);
         left: 50vw;
-        top: 90vh;
+        top: calc(90vh - 7vw);
     }
-    81%{
+    81% {
         transform: rotate(-90deg);
     }
     100% {
@@ -284,8 +283,8 @@ svg {
 
 .bug3 {
     position: absolute;
-    width: 120px;
-    height: 100px;
+    width: 8.333333333333332vw;
+    height: 6.944444444444445vw;
     animation: animation-bug3 10s ease infinite;
 }
 
@@ -314,7 +313,7 @@ svg {
     80% {
         transform: rotate(-300deg);
         left: 40vw;
-        top: 95vh;
+        top: calc(95vh - 7vw);
     }
     81% {
         transform: rotate(-400deg);
