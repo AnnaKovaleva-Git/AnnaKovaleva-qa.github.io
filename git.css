@@ -324,3 +324,76 @@ svg {
         top: 50vh;
     }
 }
+
+@media screen and (min-width: 1024px) {
+
+    .photo {
+        margin: 0 0 16px 0;
+    }
+
+    .contacts {
+        margin: 16px 0 0 0;
+        display: flex;
+    }
+
+    .icons {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+
+    .icons:hover {
+        width: 30px;
+        height: 30px;
+    }
+
+    .container-main {
+        padding: 16px;
+        border-radius: 8px;
+        width: 400px;
+    }
+
+    .bcontainer {
+        margin-top: 40px;
+    }
+
+    .bcenter {
+        width: 180px;
+        height: 60px;
+    }
+
+
+    .btn {
+        width: 180px;
+        height: 60px;
+        border-radius: 8px;
+    }
+
+
+    .btn span {
+        font-size: 18px;
+    }
+
+
+    .title {
+        font-size: 26px;
+        margin: 0 0 16px 0;
+    }
+
+    .text {
+        font-size: 19px;
+        margin: 0 0 24px 0;
+    }
+
+    .text1 {
+        font-size: 17px;
+        margin: 0 0 24px 0;
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    .text2 {
+        font-size: 16px;
+        margin: 0 0 16px 0;
+    }
+}
