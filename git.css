@@ -189,7 +189,7 @@ svg {
     85% {
         transform: rotate(-300deg);
         left: 30vw;
-        top: calc(100vh - 11vw);
+        top: calc(93vh - 11vw);
     }
     86% {
         transform: rotate(-350deg);
@@ -325,7 +325,7 @@ svg {
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 1023px) {
 
     .photo {
         margin: 0 0 16px 0;
