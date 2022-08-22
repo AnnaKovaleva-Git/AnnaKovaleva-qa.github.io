@@ -216,7 +216,7 @@ svg {
     }
     30% {
         transform: rotate(-320deg);
-        left: calc(80vw - 8.4vw);
+        left: calc(80vw - 9vw);
         top: calc(70vh - 7vw);
     }
     31% {
